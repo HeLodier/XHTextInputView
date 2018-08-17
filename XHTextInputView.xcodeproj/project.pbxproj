@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523EA9EE21265F1A0044D069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523EA9ED21265F1A0044D069 /* AppDelegate.m */; };
+		523EA9F121265F1A0044D069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523EA9F021265F1A0044D069 /* ViewController.m */; };
+		523EA9F421265F1A0044D069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EA9F221265F1A0044D069 /* Main.storyboard */; };
+		523EA9F621265F290044D069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523EA9F521265F290044D069 /* Assets.xcassets */; };
+		523EA9F921265F290044D069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EA9F721265F290044D069 /* LaunchScreen.storyboard */; };
+		523EA9FC21265F290044D069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523EA9FB21265F290044D069 /* main.m */; };
+		523EAA06212660480044D069 /* UITextView+HeightControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 523EAA05212660480044D069 /* UITextView+HeightControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		523EA9E921265F1A0044D069 /* XHTextInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTextInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523EA9EC21265F1A0044D069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		523EA9ED21265F1A0044D069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		523EA9EF21265F1A0044D069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		523EA9F021265F1A0044D069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		523EA9F321265F1A0044D069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523EA9F521265F290044D069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523EA9F821265F290044D069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		523EA9FA21265F290044D069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523EA9FB21265F290044D069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523EAA04212660480044D069 /* UITextView+HeightControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+HeightControl.h"; sourceTree = "<group>"; };
+		523EAA05212660480044D069 /* UITextView+HeightControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HeightControl.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523EA9E621265F1A0044D069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523EA9E021265F1A0044D069 = {
+			isa = PBXGroup;
+			children = (
+				523EA9EB21265F1A0044D069 /* XHTextInputView */,
+				523EA9EA21265F1A0044D069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523EA9EA21265F1A0044D069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523EA9E921265F1A0044D069 /* XHTextInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523EA9EB21265F1A0044D069 /* XHTextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				523EAA0221265FE50044D069 /* XHTextInputViewExt */,
+				523EA9EC21265F1A0044D069 /* AppDelegate.h */,
+				523EA9ED21265F1A0044D069 /* AppDelegate.m */,
+				523EA9EF21265F1A0044D069 /* ViewController.h */,
+				523EA9F021265F1A0044D069 /* ViewController.m */,
+				523EA9F221265F1A0044D069 /* Main.storyboard */,
+				523EA9F521265F290044D069 /* Assets.xcassets */,
+				523EA9F721265F290044D069 /* LaunchScreen.storyboard */,
+				523EA9FA21265F290044D069 /* Info.plist */,
+				523EA9FB21265F290044D069 /* main.m */,
+			);
+			path = XHTextInputView;
+			sourceTree = "<group>";
+		};
+		523EAA0221265FE50044D069 /* XHTextInputViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				523EAA04212660480044D069 /* UITextView+HeightControl.h */,
+				523EAA05212660480044D069 /* UITextView+HeightControl.m */,
+			);
+			path = XHTextInputViewExt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		523EA9E821265F1A0044D069 /* XHTextInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523EA9FF21265F290044D069 /* Build configuration list for PBXNativeTarget "XHTextInputView" */;
+			buildPhases = (
+				523EA9E521265F1A0044D069 /* Sources */,
+				523EA9E621265F1A0044D069 /* Frameworks */,
+				523EA9E721265F1A0044D069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHTextInputView;
+			productName = XHTextInputView;
+			productReference = 523EA9E921265F1A0044D069 /* XHTextInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523EA9E121265F1A0044D069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Lxh.yzj;
+				TargetAttributes = {
+					523EA9E821265F1A0044D069 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 523EA9E421265F1A0044D069 /* Build configuration list for PBXProject "XHTextInputView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 523EA9E021265F1A0044D069;
+			productRefGroup = 523EA9EA21265F1A0044D069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523EA9E821265F1A0044D069 /* XHTextInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523EA9E721265F1A0044D069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EA9F921265F290044D069 /* LaunchScreen.storyboard in Resources */,
+				523EA9F621265F290044D069 /* Assets.xcassets in Resources */,
+				523EA9F421265F1A0044D069 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523EA9E521265F1A0044D069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523EAA06212660480044D069 /* UITextView+HeightControl.m in Sources */,
+				523EA9F121265F1A0044D069 /* ViewController.m in Sources */,
+				523EA9FC21265F290044D069 /* main.m in Sources */,
+				523EA9EE21265F1A0044D069 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		523EA9F221265F1A0044D069 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EA9F321265F1A0044D069 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523EA9F721265F290044D069 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523EA9F821265F290044D069 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523EA9FD21265F290044D069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		523EA9FE21265F290044D069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523EAA0021265F290044D069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K4GJ4LDUZ;
+				INFOPLIST_FILE = XHTextInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lxh.goodyao.com.XHTextInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523EAA0121265F290044D069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K4GJ4LDUZ;
+				INFOPLIST_FILE = XHTextInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lxh.goodyao.com.XHTextInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523EA9E421265F1A0044D069 /* Build configuration list for PBXProject "XHTextInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EA9FD21265F290044D069 /* Debug */,
+				523EA9FE21265F290044D069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523EA9FF21265F290044D069 /* Build configuration list for PBXNativeTarget "XHTextInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523EAA0021265F290044D069 /* Debug */,
+				523EAA0121265F290044D069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523EA9E121265F1A0044D069 /* Project object */;
+}
